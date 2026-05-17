@@ -1,8 +1,8 @@
-# ⚽ Player Stats API
+# Player Stats API
 
 A RESTful API for querying football player statistics, built with **Spring Boot** and **PostgreSQL**.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Java 17
 - Spring Boot 3
@@ -10,7 +10,7 @@ A RESTful API for querying football player statistics, built with **Spring Boot*
 - PostgreSQL
 - Maven
 
-## 📡 Endpoints
+## Endpoints
 
 Base URL: `/api/v1/player`
 
@@ -26,7 +26,7 @@ Base URL: `/api/v1/player`
 | `PUT` | `/api/v1/player` | Update an existing player |
 | `DELETE` | `/api/v1/player/{playerName}` | Delete a player |
 
-## ▶️ Running Locally
+## Running Locally
 
 ### Prerequisites
 - Java 17+
@@ -55,11 +55,11 @@ Base URL: `/api/v1/player`
 
 The API will be available at `http://localhost:8080`
 
-## 🗄 Database
+## Database
 
 The app connects to a PostgreSQL database using the `football` schema and the `player_statistic` table. Player data was sourced from a CSV file containing Premier League statistics.
 
-## 🚧 Coming Soon
+## Coming Soon
 
 - Exception handling with proper HTTP error responses
 - DTO layer
